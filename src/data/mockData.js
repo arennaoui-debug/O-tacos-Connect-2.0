@@ -1,13 +1,5 @@
-export const kpiData = [
-  {
-    id: 1,
-    title: "Chiffre d'Affaires du Jour",
-    value: "€4,560",
-    change: "+12%",
-    trend: "up",
-    goal: "€5,000",
-    color: 'otacos-blue',
-  },
+// src/data/mockData.js
+
 export const kpiData = [
   {
     id: 1,
@@ -18,7 +10,8 @@ export const kpiData = [
     goal: "€5,000",
     color: '#1a3a5a', // otacos-blue
   },
-  {
+  // --- Le code ci-dessus était probablement interrompu ici ---
+  { // Ceci est le deuxième élément du tableau, pas une nouvelle déclaration
     id: 2,
     title: "Ticket Moyen (TM)",
     value: "€15.20",
