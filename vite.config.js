@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  // Change base from '/' to './' to fix relative path issues
+  // CHANGE: Use relative path './' to fix resource loading (404)
   base: './', 
 });
