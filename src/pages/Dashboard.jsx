@@ -1,10 +1,11 @@
 // src/pages/Dashboard.jsx
 
-import React from 'react'; // Ligne 1
+import React from 'react'; // DOIT ÊTRE ICI (Ligne 1)
 import KpiCard from '../components/KpiCard';
 import { kpiData, alertsData } from '../data/mockData';
 import { FaBell, FaShoppingCart, FaUtensils, FaUsers } from 'react-icons/fa';
 
+// Ceci est la fonction du composant
 const Dashboard = () => {
   return (
     <div className="p-8 w-full">
@@ -71,5 +72,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
 
