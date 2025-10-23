@@ -1,0 +1,63 @@
+export const kpiData = [
+  {
+    id: 1,
+    title: "Chiffre d'Affaires du Jour",
+    value: "€4,560",
+    change: "+12%",
+    trend: "up",
+    goal: "€5,000",
+    color: 'otacos-blue',
+  },
+export const kpiData = [
+  {
+    id: 1,
+    title: "Chiffre d'Affaires du Jour",
+    value: "€4,560",
+    change: "+12%",
+    trend: "up",
+    goal: "€5,000",
+    color: '#1a3a5a', // otacos-blue
+  },
+  {
+    id: 2,
+    title: "Ticket Moyen (TM)",
+    value: "€15.20",
+    change: "-0.5%",
+    trend: "down",
+    goal: "€15.50",
+    color: '#a3e635', // otacos-accent
+  },
+  {
+    id: 3,
+    title: "TPM (Temps Prépa. Moyen)",
+    value: "3:45 min",
+    change: "+0:15 min",
+    trend: "warning",
+    goal: "Sous 3:00 min",
+    color: 'rgb(239 68 68)', // red-500
+  },
+  {
+    id: 4,
+    title: "Score Audit Hygiène",
+    value: "95%",
+    change: "Stable",
+    trend: "ok",
+    goal: "90%",
+    color: 'rgb(34 197 94)', // green-500
+  },
+];
+
+export const alertsData = [
+    "Stock critique : Frites Classiques (Rupture J+1)",
+    "Maintenance préventive friteuse #2 due aujourd'hui",
+    "Nouvelle recette Tacos Signature Végé publiée. À valider par l'équipe.",
+];
+
+export const navModules = [
+  { name: 'Tableau de Bord', path: '/', icon: 'FaTachometerAlt' },
+  { name: 'Équipe & RH', path: '/equipe-rh', icon: 'FaUsers' },
+  { name: 'Opérations & Qualité', path: '/operations', icon: 'FaClipboardCheck' },
+  { name: 'Logistique & Stock', path: '/stock', icon: 'FaWarehouse' },
+  { name: 'Performance Commerciale', path: '/crm', icon: 'FaChartLine' },
+  { name: 'Finances & Reporting', path: '/finances', icon: 'FaEuroSign' },
+];
