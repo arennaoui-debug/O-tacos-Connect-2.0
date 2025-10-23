@@ -6,7 +6,7 @@ import { navModules } from '../data/mockData';
 const ModuleNavigation = () => {
   const OtacosLogo = () => (
     <div className="flex items-center justify-center p-4 text-white">
-      <FaIcons.FaTaco className="text-otacos-accent text-3xl mr-2" />
+     <FaIcons.FaTachometerAlt className="text-otacos-accent text-3xl mr-2" />
       <span className="text-xl font-bold">O'Tacos-CONNECT</span>
     </div>
   );
@@ -42,3 +42,4 @@ const ModuleNavigation = () => {
 };
 
 export default ModuleNavigation;
+
